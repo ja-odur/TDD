@@ -1,7 +1,13 @@
-import math
-
 
 def prime_generator(start_value=0, end_value=2):
+    """
+    prime_generator takes in two parameters,  a start value and an end value the returns
+    a list of prime numbers from the start_value to end_value.
+    
+    :param start_value: type int
+    :param end_value: type int
+    :return: type list
+    """
     start_point = start_value
     prime_numbers = [2] if (start_point <= 2 and end_value >= 2) else []
 
